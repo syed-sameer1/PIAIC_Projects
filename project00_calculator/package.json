@@ -3,9 +3,17 @@
   "version": "1.0.0",
   "description": "PIAIC first project",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Syed Sameer",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "typescript": "^5.4.4"
+  },
+  "dependencies": {
+    "inquirer": "^9.2.17"
+  }
 }
